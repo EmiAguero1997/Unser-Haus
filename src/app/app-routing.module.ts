@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeaderComponent } from 'src/modules/layout/header/header.component';
+import { HeroComponent } from 'src/modules/layout/hero/hero.component';
 
 const routes: Routes = [
   {
-    path:'layout/header',
-    component:HeaderComponent
+    path:'home',
+    component:HeroComponent
   }
 ];
 
