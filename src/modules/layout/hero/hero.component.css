@@ -1,0 +1,6 @@
+.carousel-responsive{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: auto;
+}
