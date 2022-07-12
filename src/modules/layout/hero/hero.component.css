@@ -1,6 +1,14 @@
-.carousel-responsive{
+/* .carousel-responsive{
     display: grid;
     gap: 1rem;
-    grid-auto-rows: 22rem;
+    grid-auto-rows: 40rem;
     grid-template-columns: auto;
+    position: relative;
+} */
+
+.image {
+    
+    max-inline-size: 100%;  /*images should never be rendered at a size wider than their containing element using max-inline-size. */
+    block-size: auto;
+    aspect-ratio: 2/1;
 }
