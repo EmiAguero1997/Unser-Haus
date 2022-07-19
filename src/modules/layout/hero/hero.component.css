@@ -7,8 +7,11 @@
 } */
 
 .image {
-    
-    max-inline-size: 100%;  /*images should never be rendered at a size wider than their containing element using max-inline-size. */
-    block-size: auto;
-    aspect-ratio: 2/1;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.heroCarousel{
+    width: 50%;
 }
