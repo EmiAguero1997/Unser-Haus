@@ -1,3 +1,17 @@
-<app-header></app-header>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+<div class="grid">
+    <div class="row border header">
+        <div class="col">
+            <app-header></app-header>
+        </div>
+    </div>
+    <div class="row border content">
+        <div class="col">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <div class="row border footer">
+        <div class="col">
+            <app-footer></app-footer>
+        </div>
+    </div>
+</div>
