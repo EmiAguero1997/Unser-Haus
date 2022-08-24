@@ -2,14 +2,19 @@
     height: auto;
 }
 
-
-
-.footer{
+.content{
     height: auto;
 }
 
-/* @media screen and (max-width: 418px) {
+.footer{
+    bottom: 0px;
+    position: relative;
+    /* width: 100%; */
+}
+
+
+@media screen and (max-width: 630px) {
     .content{
-        height: 550px;
+        height: 650px;
     }
-} */
+}
