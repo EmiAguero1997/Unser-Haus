@@ -7,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
+  cardData: any[] = [
+    {
+      name:'Card 1'
+    },
+    {
+      name:'Card 2'
+    },
+    {
+      name:'Card 3'
+    }
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
